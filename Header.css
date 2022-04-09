@@ -1,18 +1,27 @@
 .background {
-    background-image: url("New.jpg");
+    position: relative;
     height: 600px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background::before {
+    content: "";
+    background-image: url('New.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    opacity: .8;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
 }
 
 .background h1 {
-    opacity: 1;
+    position: relative;
     color: crimson;
+    font-size: 80px;
     text-align: center;
-    font-size: 60px;
-    margin-top: auto;
-    padding-top: 250px;
 }
