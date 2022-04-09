@@ -1,0 +1,18 @@
+.background {
+    background-image: url("New.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .8;
+}
+
+.background h1 {
+    opacity: 1;
+    color: crimson;
+    text-align: center;
+    font-size: 60px;
+    margin-top: auto;
+    padding-top: 250px;
+}

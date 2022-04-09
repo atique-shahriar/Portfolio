@@ -1,0 +1,32 @@
+.skills {
+    background-color: white;
+    height: 700px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid lightslategrey;
+    background-color: lightgray;
+
+}
+
+.section {
+    margin: 40px 300px;
+}
+
+.section h1 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+img {
+    width: 100px;
+    margin-top: -40px;
+}
+
+ul {
+    list-style: none;
+}

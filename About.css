@@ -1,0 +1,95 @@
+.about-text {
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.about-section {
+    margin-left: 6%;
+    margin-right: 6%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 200px 250px 50px;
+    grid-gap: 10px;
+    grid-template-areas: "i i i i i i d d p p ph ph" "i i i i i i de de de de de de" "i i i i i i m m m m m m";
+}
+
+.image {
+    grid-area: i;
+    background-image: url("my-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dev img,
+.prog img,
+.photo img {
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.dev {
+    color: white;
+    grid-area: d;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.prog {
+    color: white;
+    grid-area: p;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.photo {
+    color: white;
+    grid-area: ph;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.details {
+    grid-area: de;
+    text-align: justify;
+    color: white;
+    font-size: 17px;
+    padding: 20px;
+    line-height: 25px;
+}
+
+.more {
+    grid-area: m;
+}
+
+.about-section button {
+    background-color: crimson;
+    text-align: center;
+    margin-top: 40px;
+    padding: 6px;
+    width: 100px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.about-section a {
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+
+.about-section button:hover,
+.about-section a:hover {
+    background-color: white;
+    color: crimson;
+}
